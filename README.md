@@ -1,9 +1,9 @@
-Airbnb_Amsterdam_Selection
+# Airbnb Amsterdam Selection
 
-Numpy first attempt at data manipulation
+This app uses Numpy to manipulate data and streamlit to create an interactive interface. The dataset includes information on various Bed and Breakfast listings in Amsterdam.
 
-Created an app with streamilt, inspected data with Numpy, selected Bed and Breakfast close to Van Gogh Museum
+After cleaning and processing the data, I converted prices from US dollars to EUR and adjusted for inflation. Using the provided geo coordinates, I used a vectorized math function to find the listings that are closest to the Van Gogh Museum.
 
-After downloading the dataset I performed some cleaning, finding the delimiter to get a matrix and cleaning it up for processing
+With this app, you can easily find the top Bed and Breakfast options near the museum in Amsterdam.
 
-I converted the US prices in EUR, and using geo coordinates and a vectorized math function I calculated the closest selection to Van Gogh Museum
+Try out the app here: [Streamlit](https://tizzz-555-airbnb-amsterdam-selection-streamlit-app-9drsow.streamlit.app/).
